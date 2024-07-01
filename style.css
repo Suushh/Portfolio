@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap");
+* {
+  font-family: "Playwrite DE Grund", cursive;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #776391;
+  color: white;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #3f275e;
+  padding: 10px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  background-color: #3f275e;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+.nav-active {
+  color: rgb(42, 2, 42); /* Change to the desired active link color */
+}
+.info {
+  text-decoration: none;
+  color: white;
+}
+.info:hover {
+  color: rgb(42, 2, 42);
+  font-size: 1.04rem;
+}
+.left {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 40px 0;
+  height: 40vw;
+}
+.firstSection > div {
+  width: 30%;
+}
+.leftSection {
+  margin: 10px 0;
+  font-size: 3.3rem;
+}
+.rightSection img {
+  width: 70vh;
+
+  margin: 0;
+}
+.text-color {
+  color: #e0ffe4;
+  font-weight: bold;
+  font-style: italic;
+}
+#element {
+  color: #e0ffe4;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.about {
+  display: flex;
+  max-width: 75vw;
+  margin: auto;
+  align-items: center;
+  height: 35vw;
+  justify-content: space-between;
+}
+.secondSection h1 {
+  width: 20%;
+  margin-left: 620px;
+  font-size: 2.5rem;
+  text-align: center;
+  border: 2px solid #3f275e;
+  background-color: white;
+  border-radius: 25%;
+  color: #3f275e;
+}
+main hr {
+  border: 0;
+  background-color: #e0ffe4;
+  height: 5px;
+  margin: 30px 80px;
+}
+.intro {
+  margin-top: 0;
+  width: 73%;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+}
+
+.leftSection2 img {
+  margin-top: 0px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+.thirdSection {
+  max-width: 75vw;
+  margin: auto;
+}
+.thirdSection h1 {
+  width: 24%;
+  margin-left: 430px;
+  font-size: 2.5rem;
+  text-align: center;
+  border: 2px solid #3f275e;
+  background-color: white;
+  border-radius: 25%;
+  color: #3f275e;
+}
+
+.boxes {
+  max-width: 75vw;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: space-between;
+}
+.box {
+  background-color: #3f275e;
+  color: #e0ffe4;
+
+  height: 25vw;
+  width: 20vw;
+  border: 2px solid black;
+  border-radius: 0px 0px 30px 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+
+.box img {
+  background-color: rgb(151, 201, 241);
+  border: 2px solid black;
+  overflow: hidden;
+  object-fit: fill;
+  height: 70%;
+  width: 100%;
+}
+
+.name {
+  margin-top: 10px;
+  font-size: 24px; /* Adjust the font size as needed */
+  font-weight: bold; /* Example: make the text bold */
+}
+.weblink a {
+  font-size: 18px; /* Adjust the font size as needed */
+  margin-top: 5px;
+  color: #bb9ce3;
+  text-decoration: none;
+}
+.weblink a:hover {
+  font-size: 19px;
+  text-decoration: underline; /* Underline the link on hover */
+}
+
+.gitlink {
+  font-size: 18px; /* Adjust the font size as needed */
+  margin-top: 5px; /* Example: add some space above the link */
+}
+
+.gitlink a {
+  text-decoration: none; /* Remove underline from the link */
+  color: #e4d2fc; /* Example link color */
+}
+
+.gitlink a:hover {
+  font-size: 19px;
+  text-decoration: underline; /* Underline the link on hover */
+}
+.contacts {
+  max-width: 75vw;
+  margin: auto;
+  margin-top: 50px;
+  margin-left: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.fourthSection h1 {
+  width: 27%;
+  margin-left: 560px;
+  font-size: 2.5rem;
+  text-align: center;
+  border: 2px solid #3f275e;
+  background-color: white;
+  border-radius: 25%;
+  color: #3f275e;
+}
+.contacts img {
+  background-color: #776391;
+  width: 7vw;
+  height: 7vw;
+}
+.contacts > div {
+  display: flex;
+  font-size: 25px;
+  align-items: center;
+  gap: 20px;
+}
+.contacts a {
+  color: #d0fbd6;
+}
+.contacts a:hover {
+  color: #d6bef6;
+  text-decoration: underline; /* Underline the link on hover */
+}
+footer {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* Light text color */
+  padding: 20px 0; /* Padding around content */
+  text-align: center; /* Center align text */
+
+  bottom: 0; /* Stick to the bottom of the viewport */
+  height: 1vw;
+  width: 100%; /* Full width */
+}
+
+.footer-content {
+  max-width: 70vw; /* Example maximum width */
+  margin: 0 auto; /* Center the footer horizontally */
+}
+
+.footer-content p {
+  margin-bottom: 10px; /* Spacing between paragraphs */
+}

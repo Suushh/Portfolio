@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shruti - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Shruti`s Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a class="info" href="#Home">Home</a></li>
+            <li><a class="info" href="#About">About</a></li>
+            <li><a class="info" href="#Projects">Projects</a></li>
+            <li><a class="info" href="#Contact">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="Home" class="firstSection">
+        <div class="leftSection">
+          Hi, I am <span class="text-color">Shruti</span>
+          <div>and I am a passionate</div>
+          <span id="element"> </span>
+        </div>
+        <div class="rightSection">
+          <img src="Untitled design (3).png" alt="" />
+        </div>
+      </section>
+      <hr />
+
+      <section id="About" class="secondSection">
+        <h1 class="">ABOUT ME</h1>
+        <div class="about">
+          <div class="leftSection2">
+            <img src="profile.jpg" alt="" />
+          </div>
+          <div class="intro">
+            Hello there,<br /><br />Myself Shruti and currently I am doing Btech
+            in Metallurgy and Material Engineering from Indian Institute of
+            Technology, Roorkee. I am always eager to learn new things and
+            embrace challenges. This mindset drives my continuous growth and
+            keeps me motivated to improve my skills. I am deeply interested in
+            web development and data analytics. Exploring the intricate world of
+            coding and the insightful realm of data has always fascinated me.
+            This portfolio showcases my journey and the projects I have
+            undertaken, reflecting my enthusiasm and growing expertise in these
+            fields. I am a beginner and learning everyday to improve myself,
+            your suggestion and advices are always welcome :)
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section id="Projects" class="thirdSection">
+        <h1>PROJECTS</h1>
+        <div class="boxes">
+          <div class="box">
+            <img src="RetroCraftHub.png" alt="" />
+            <div class="desc">
+              <div class="name" style="font-size: 20px">
+                IMG Winter Assignment<br />
+                (RetroCraft Hub)
+              </div>
+              <div class="weblink">
+                <a href="final-retro-craft-hub.vercel.app">Website Link</a>
+              </div>
+              <div class="gitlink" style="margin-top: 0px">
+                <a href="https://github.com/Suushh/Final-RetroCraft-Hub"
+                  >Github Repository Link</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <img
+              src="sunny-and-rainy-cloudy-day-weather-forecast-icon-meteorological-sign-3d-render-png.webp"
+              alt=""
+            />
+            <div class="desc">
+              <div class="name">Weather App</div>
+              <div class="gitlink">
+                <a href="https://github.com/Suushh/Weather-App"
+                  >Github Repository Link</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <img src="logo.png" alt="" />
+            <div class="desc">
+              <div class="name">Netflix Clone</div>
+              <div class="gitlink">
+                <a href="https://github.com/Suushh/Netflix_clone"
+                  >Github Repository Link</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <img src="parallax.webp" alt="" />
+            <div class="desc">
+              <div class="name">Parallax Website</div>
+              <div class="gitlink">
+                <a href="https://github.com/Suushh/Parralax_website"
+                  >Github Repository Link</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section id="Contact" class="fourthSection">
+        <h1>CONTACT ME</h1>
+        <div class="contacts">
+          <div class="c1">
+            <img src="66e8ac75-2af0-4980-a58e-c09f45b23c35.png" alt="" />
+            <a href="https://github.com/Suushh">Github</a>
+          </div>
+          <div class="c2">
+            <img src="linkedinlogo.webp" alt="" />
+            <a href="https://www.linkedin.com/in/shruti-fulara-15aa4427b/"
+              >Linkedin</a
+            >
+          </div>
+          <div class="c3">
+            <img src="gmaillogo.webp" alt="" />
+            <a href="mailto:shrutifulara645@gmail.com"
+              >shrutifulara645@gmail.com
+            </a>
+
+            <a href="mailto:shruti@mt.iitr.ac.in">shruti@mt.iitr.ac.in</a>
+          </div>
+        </div>
+      </section>
+      <hr />
+    </main>
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2024 Shruti. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Data Analyst", "Student"],
+        typeSpeed: 50,
+        backSpeed: 30,
+        loop: true,
+      });
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+
+          const target = document.querySelector(this.getAttribute("href"));
+          target.scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+      });
+      
+    </script>
+  </body>
+</html>
